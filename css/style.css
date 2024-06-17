@@ -1143,4 +1143,9 @@
     font-size: 14px;
     margin-bottom: 20px;
   }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
 }
