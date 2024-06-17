@@ -1,69 +1,83 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/slick.css" />
     <title>Research Page</title>
+    <style>
+      /* Apply the same CSS styles from the provided HTML snippet */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+      }
+      .site-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      /* Add additional styles for work experience section */
+      .work-experience {
+        background-color: #ffffff;
+        padding: 40px;
+        margin-top: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .work-experience h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .work-experience p {
+        font-size: 16px;
+        color: #666;
+      }
+      .back-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+      .back-button:hover {
+        background-color: #0056b3;
+      }
+    </style>
   </head>
   <body>
-    <!-- Navigation -->
-    <nav class="site-navigation">
-      <!-- Navigation content here -->
-    </nav>
-    <!-- Navigation end -->
+    <div class="site-container">
+      <!-- Add back button at the top of the site container -->
+      <a href="index.html" class="back-button">Back to Home</a>
 
-    <!-- Top banner -->
-    <section class="fh5co-top-banner">
-      <!-- Top banner content here -->
-    </section>
-    <!-- Top banner end -->
-
-    <!-- About me -->
-    <section class="fh5co-about-me">
-      <div class="about-me-inner site-container">
-        <article class="portfolio-wrapper">
-          <!-- Portfolio content here -->
-        </article>
-        <div class="about-me__text">
-          <div class="about-me-slider">
-            <div class="about-me-single-slide">
-              <h2 class="universal-h2 universal-h2-bckg">Research</h2>
-              <h3 style="color: #ffc433">研究分野</h3>
-              <p>Text-to-3D生成技術（文章から3Dモデルを生成する技術）</p>
-              <h3 style="color: white">実績</h3>
-              <ul style="color: white">
-                <li>
-                  MIRU2023 (2023年7月) 口頭発表、タイトル：Text-to-3D Generation
-                  Enhanced by the Integration of Signed Distance Fields
-                </li>
-                <li>
-                  PRMU研究会 (2023年5月)
-                  口頭発表、タイトル：符号付き距離場を用いた滑らかな表面をもつText-to-3D生成
-                </li>
-                <li>
-                  電子情報通信学会総合大会（2023年3月）口頭発表、タイトル：Dream-NeuS:
-                  滑らかな表面を持つ3次元オブジェクトのテキストからの生成
-                </li>
-              </ul>
-            </div>
-          </div>
+      <!-- existing body content -->
+    </div>
+    <div class="site-container">
+      <section class="work-experience">
+        <div class="center-content">
+          <h2>Research</h2>
+          <h3>研究分野</h3>
+          <p>Text-to-3D生成技術（文章から3Dモデルを生成する技術）</p>
+          <h3>実績</h3>
         </div>
-      </div>
-      <div class="about-me-bckg"></div>
-    </section>
-    <!-- About me end -->
-
-    <!-- Footer -->
-    <footer class="site-footer">
-      <!-- Footer content here -->
-    </footer>
-    <!-- Footer end -->
-
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/main.js"></script>
+        <ul>
+          <li>
+            MIRU2023 (2023年7月) 口頭発表、タイトル：Text-to-3D Generation
+            Enhanced by the Integration of Signed Distance Fields
+          </li>
+          <li>
+            PRMU研究会 (2023年5月)
+            口頭発表、タイトル：符号付き距離場を用いた滑らかな表面をもつText-to-3D生成
+          </li>
+          <li>
+            電子情報通信学会総合大会（2023年3月）口頭発表、タイトル：Dream-NeuS:
+            滑らかな表面を持つ3次元オブジェクトのテキストからの生成
+          </li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>
